@@ -1,0 +1,24 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A tracker for managing a company's employees using node, inquirer, and MySQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marktmcgraw/employee-tracker.git"
+  },
+  "author": "Mark McGraw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marktmcgraw/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/marktmcgraw/employee-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.0.1",
+    "mysql": "^2.17.1"
+  }
+}
