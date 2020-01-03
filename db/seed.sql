@@ -16,7 +16,7 @@ VALUES
 -- add role
 INSERT INTO role
     (title, salary, department_id)
-VALUE
+VALUES
 ("manager", 75000.00, 2),
 ("engineer", 52000, 3),
 ("accountant", 62500, 4),
@@ -26,7 +26,7 @@ VALUE
 --add employee
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
-VALUE
+VALUES
 ("John", "Smith", 1, NULL),
 ("Jill", "Green", 1, 1),
 ("Jack", "Brown", 3, 2),
