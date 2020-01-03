@@ -2,7 +2,7 @@
 
 const mysql = require("mysql");
 const inquirer = require("inquirer");
-const console_table = require("console.table");
+const consoleTable = require("console.table");
 
 // Establish server & PORT
 
@@ -174,11 +174,26 @@ function viewRole() {
   });
 }
 
-function viewEmployee(){
+function viewEmployee() {
   const query = "SELECT * FROM employee";
-  connection.query(query, function(err, res){
+  connection.query(query, function(err, res) {
     if (err) throw err;
     console.table(res);
     start();
-  })
+  });
+}
+
+function updateRole() {
+  const query = "SELECT id, first_name, last_name, role_id  FROM employee";
+  connection.query(query, function(err, res) {
+    if (err) throw err;
+    console.table(res);
+    {
+      inquirer.prompt({
+        type: "input",
+        message: "Which employee needs to be updated? (please use number from id column only)",
+        name: "employee"
+      });
+    }
+  });
 }
