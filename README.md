@@ -29,7 +29,7 @@ MAMP - For the server hosting the application
 
 # Working Application 
 
-![Employee_Tracker_Demo](/employee-tracker/Employee_tracker_Demo.gif)
+![Employee_Tracker_Demo](Employee_tracker_Demo.gif)
 
 # Challenges
 
