@@ -27,6 +27,10 @@ MySqlWorkbench - For the database creation and data storage
 <br>
 MAMP - For the server hosting the application
 
+# Working Application 
+
+![Employee_Tracker_Demo](/employee-tracker/Employee_tracker_Demo-gif)
+
 # Challenges
 
 Challenges included setting up the query functions and understanding how the application functions, MySQLWorkbench, and MAMP server interact to run the application successfully. 
